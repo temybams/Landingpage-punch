@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  max-width: 500px;
+
+  width: 100%;
+
+  .input img {
+    width: 50%;
+  }
+}
+.input.flex {
+  margin: 1rem;
+}
+
+.list_item li {
+  transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+  color: gray;
+}
+
+.list_item li:hover {
+  color: black;
+  font-weight: 500;
+}
+.card_container {
+  max-width: 920px;
+  min-width: 320px;
+  width: 100%;
+  background: #cccccc18;
+  height: 100%;
+  margin-top: 55px;
+  margin-right: 0px;
+}
+.one_step {
+  background: #edefff;
+  clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
+  padding: 20px;
+  .right-box {
+    width: calc(100% - 26rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .classy {
+    font-size: 1.5rem;
+    margin-top: 110px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+.howit_worked {
+  background: #202229;
+  clip-path: polygon(0 9%, 100% 0, 100% 95%, 0 100%);
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  margin-top: -200px;
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  padding-bottom: -100px;
+}
+
+.box_slant {
+  clip-path: polygon(0 25%, 100% 0, 100% 74%, 0 100%);
+}
+
+.why_choose {
+  clip-path: polygon(0 8%, 100% 0, 100% 84%, 0 100%);
+  min-height: 105vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -255px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: linear-gradient(
+    to top,
+    #cccccc3d,
+    rgba(0, 0, 255, 0.107),
+    transparent 100%
+  );
+}
+
+/* @media (max-width: 640px) {
+  .why_choose {
+    flex-direction: column;
+  }
+  .carousel-below {
+    margin-top: 20px; 
+    width: 100%;
+  }
+} */
+
+.faq_cont {
+  clip-path: polygon(0 8%, 100% 0, 100% 84%, 0 100%);
+  margin-top: -200px;
+  margin-left: 0px;
+  width: 100%;
+  margin-bottom: -200px;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-text {
+    padding-left: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .journey .box {
+    clip-path: none;
+    background: #cccccc34;
+    margin-bottom: 40px; 
+    height: auto; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+     margin-left: 10px;
+     margin-right: 10px;
+  }
+
+  .journey .left {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .journey .right {
+    display: none; 
+  }
+
+  .journey .button {
+    margin-top: 10px; 
+  }
+}
+
+
+@media (max-width: 640px) {
+  .flex.flex-col-reverse {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 641px) {
+  .flex.flex-col-reverse {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 640px) {
+  .image_vi .img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 641px) {
+  .image_vi .img {
+    width: 50%;
+    height: auto;
+
+    max-width: 400px;
+  }
+}

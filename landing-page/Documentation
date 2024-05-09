@@ -1,0 +1,14 @@
+This documentation provides an overview of the Landing Page Assigment project.
+
+Technology used:
+- React: JavaScript library for building user interfaces.
+- Typescript.
+- Vite: frontend tooling for React projects, used for development and production builds.
+- TailwindCss/CSS: Styling language used for styling the components.
+- Yarn: Package manager used for managing project dependencies.
+
+
+
+
+
+ 
